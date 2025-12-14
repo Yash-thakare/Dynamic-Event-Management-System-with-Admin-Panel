@@ -1,0 +1,77 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.section h2 {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.event-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.event-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.more {
+    color: #999;
+    font-style: italic;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
